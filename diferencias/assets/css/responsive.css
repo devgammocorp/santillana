@@ -1,0 +1,34 @@
+/* iPad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  /* Body */
+  body {
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}
+
+/* iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* Body */
+  body {
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}
+
+/* iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* Body */
+  body {
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}

@@ -1,0 +1,25 @@
+html,
+body {
+  background: #2571B3 url(../images/body-bg.png) repeat-x 0 0;
+  font-family: Helvetica;
+  font-size: 0.85em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+  border: 1px dotted #fff;
+  display: block;
+  height: 96%;
+  margin: 1%;
+  padding: 0;
+  width: 98%;
+}

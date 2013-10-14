@@ -1,0 +1,11 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+
+	<circle fill="#FFF200" stroke="#CCCCCC" stroke-width="0.5" stroke-miterlimit="10" cx="25.191" cy="25.051" r="23.286"/>
+	<path fill="#F1F2F2" stroke="#CCCCCC" stroke-width="0.5" stroke-miterlimit="10" d="M25.189,48.906
+		c-13.154,0-23.855-10.701-23.855-23.855S12.035,1.195,25.189,1.195c13.156,0,23.857,10.702,23.857,23.856
+		S38.346,48.906,25.189,48.906z M25.189,2.338c-12.523,0-22.713,10.189-22.713,22.712s10.189,22.713,22.713,22.713
+		c12.527,0,22.717-10.189,22.717-22.713S37.717,2.338,25.189,2.338z"/>
+<line fill="none" stroke="#FFF2D9" stroke-width="0.25" stroke-miterlimit="10" x1="17.668" y1="13.167" x2="11.834" y2="22.667"/>
+<line fill="none" stroke="#FFF2D9" stroke-width="0.25" stroke-miterlimit="10" x1="17.989" y1="15.273" x2="13.514" y2="22.562"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg version="1.1" id="svg_0" valid="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85.04px" height="85.04px" viewBox="0 0 85.04 85.04" enable-background="new 0 0 85.04 85.04" xml:space="preserve">
+	<path name="model_yellow" fill="#FFE749" stroke="#9A9A45" stroke-linecap="round" stroke-linejoin="round" d="M54.632,14.615
+	c2.552-0.494,5.184-0.761,7.88-0.761c3.638,0,7.16,0.477,10.521,1.363C65.524,6.892,54.638,1.652,42.521,1.652
+	c-9.021,0-17.355,2.908-24.126,7.827c4.071-1.352,8.425-2.094,12.953-2.094C39.997,7.386,48.015,10.061,54.632,14.615" class="colorModel" fixedColor="" />
+	
+	<path name="model_red" fill="#EF443B" stroke="#9C3A3B" stroke-linecap="round" stroke-linejoin="round" d="M54.632,14.615
+	c10.707,7.374,17.729,19.688,17.729,33.637c0,13.584-6.657,25.611-16.888,33.042c16.301-5.403,28.061-20.717,28.061-38.774
+	c0-10.496-3.974-20.064-10.501-27.302c-3.361-0.887-6.884-1.363-10.521-1.363C59.815,13.854,57.184,14.121,54.632,14.615" class="colorModel" fixedColor="" />
+	
+	<path name="model_red" fill="#EF443B" stroke="#9C3A3B" stroke-linecap="round" stroke-linejoin="round" d="M1.506,42.52
+	c0,18.948,12.941,34.876,30.493,39.504c-6.528-7.237-10.502-16.804-10.502-27.3c0-19.886,14.258-36.445,33.135-40.108
+	c-6.617-4.555-14.635-7.229-23.284-7.229c-4.528,0-8.88,0.742-12.953,2.094C8.161,16.91,1.506,28.936,1.506,42.52" class="colorModel" fixedColor="" />
+	
+	<path name="model_yellow" fill="#FFE749" stroke="#9A9A45" stroke-linecap="round" stroke-linejoin="round" d="M72.361,48.252
+	c0-13.949-7.021-26.263-17.729-33.637c-18.878,3.663-33.135,20.223-33.135,40.107c0,10.497,3.974,20.063,10.501,27.301
+	c3.359,0.887,6.884,1.364,10.522,1.364c4.528,0,8.878-0.742,12.953-2.094C65.706,73.863,72.361,61.836,72.361,48.252" class="colorModel" fixedColor="" />
+	
+	<path name="model_sky" fill="#BCE5EE" stroke="#079389" stroke-linecap="round" stroke-linejoin="round" d="M62.502,18.133
+	c-0.636,3.268-4.902,5.185-9.523,4.282c-4.621-0.9-7.852-4.282-7.214-7.549c0.637-3.267,4.9-5.184,9.522-4.281
+	C59.91,11.487,63.139,14.866,62.502,18.133" class="colorModel" fixedColor="" />
+</svg>

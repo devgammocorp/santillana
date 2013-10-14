@@ -1,0 +1,21 @@
+/********************
+ * Global Variables *
+ ********************/
+
+html,
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Background */
+#content .royalSlider .royalControlNavOverflow A { background: #ccc; }
+#content .royalSlider .royalControlNavOverflow A.current { background: #333; }
+
+/* Tool Box */
+.tool-box li:nth-child(1) input[type='button'] {
+  background: transparent url(../images/tool-audio.png) no-repeat center 0;
+}
+.tool-box li:nth-child(2) input[type='button'] {
+  background: transparent url(../images/tool-paint.png) no-repeat center 0;
+}

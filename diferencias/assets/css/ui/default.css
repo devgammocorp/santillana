@@ -1,0 +1,309 @@
+/**************
+ * Default UI *
+ **************/
+
+html,
+body {
+  background: #B9DBF4;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body { -webkit-font-smoothing: antialiased; }
+
+/* Text Boxes & Buttons */
+#sideBar input[type='button'] {
+  border: 3px solid #fff;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  height: 70px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 0;
+  width: 70px;
+
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  border-radius: 100px;
+}
+#sideBar li:nth-child(1) input[type='button'] {
+  background: transparent url(../../svg/icons/camera.svg) no-repeat -3px -3px;
+}
+#sideBar li:nth-child(2) input[type='button'] {
+  background: transparent url(../../svg/icons/check.svg) no-repeat -3px -3px;
+}
+#sideBar li:nth-child(3) input[type='button'] {
+  background: transparent url(../../svg/icons/audio.svg) no-repeat -3px -3px;
+}
+
+#topBar input[type='text'] {
+  background: #9BC315;
+  border: none;
+  box-shadow: 1px 1px 5px #666;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: normal;
+  margin: 0 5px;
+  outline: none;
+  text-decoration: none;
+  padding: 7px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 1px 0 #fff;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+#topBar input:hover {}
+#topBar input[type='text'] {
+  text-align: center;
+  width: 50px;
+}
+
+/* Modal Layer */
+#appModal {
+  background: #B9DBF4;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 200;
+}
+#appModal img.loader {
+  margin: 22% auto 0;
+  position: relative;
+}
+#appModal span.modalLabel {
+  color: #ccc;
+  display: block;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  margin: 1% auto 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #fff;
+  width: 200px;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+  background: #B9DBF4;
+  display: block;
+  height: 100%;
+  margin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Top & Side Bars */
+#topBar,
+#sideBar,
+#colorBox {
+  display: block;
+  height: auto;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  z-index: 150;
+}
+#topBar {
+  top: 0;
+  width: 100%;
+}
+#sideBar {
+  left: 5%;
+  top: 25%;
+  width: auto;
+}
+#topBar ul,
+#sideBar ul {
+  display: inline;
+  margin: 0 5px;
+  padding: 0;
+  text-align: center;
+}
+#topBar ul li,
+#sideBar ul li {
+  display: inline;
+}
+
+/* Color Box */
+#colorBox {
+  bottom: 0;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+#colorBox ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 98%;
+}
+#colorBox ul li {
+  cursor: pointer;
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+#colorBox ul li.active {
+  top: -75px;
+}
+
+/* Image Matrix */
+#working-area {
+  margin: 1%;
+  text-align: center;
+  width: 98%;
+}
+#working-area div.row {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+  height: 50px;
+  min-height: 112px;
+  min-height: 112px;
+
+  width: auto;
+  max-width: 536px;
+  min-width: 536px;
+}
+
+/* Image Holder */
+.image-model,
+.image-holder,
+#boxResult,
+.statBox {
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+  margin: 5px;
+  min-height: 50px;
+  min-width: 50px;
+  padding: 5px;
+  width: auto;
+
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip:    padding;
+  background-clip:         padding-box;
+}
+.image-holder {
+  cursor: pointer;
+}
+
+/* Correct - Incorrect */
+#boxResult,
+.statBox {
+  background: none;
+  border: none;
+  height: 92px;
+  overflow: hidden;
+  position: absolute;
+  width: 120px;
+  z-index: 100;
+}
+
+/* Difference Box */
+.box-diff {
+  display: block;
+  height: auto;
+  max-height: 560px;
+  max-width: 720px;
+  overflow: hidden;
+  text-align: center;
+
+  max-width: 720px;
+  width: 49%
+}
+.box-diff svg {
+  background: #7BCFDE;
+  border: 2px solid #000;
+  position: relative;
+  height: 39em;
+  /* top: -50px; */
+}
+
+/* Circled Difference */
+.circle-mark {
+  display: block;
+  height: auto;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: auto;
+  z-index: 500;
+}
+.circle-mark svg {
+  min-height: 50px;
+  min-width: 50px;
+}
+
+/* General Stuff */
+.none { display:none !important; }
+.left { float:left; }
+.right { float:right; }
+.absolute { position:absolute; z-index:100; }
+li { list-style:none; }
+
+.clickable { cursor:pointer; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* audio {
+  left: 10%;
+  position: absolute;
+  top: 5%;
+  z-index: 800;
+} */

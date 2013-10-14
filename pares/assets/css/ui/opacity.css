@@ -1,0 +1,13 @@
+/* Opacity 50% */
+.opacity50 {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+/* Opacity 75% */
+.opacity75 {
+  zoom: 1;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+}

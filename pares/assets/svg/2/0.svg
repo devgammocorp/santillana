@@ -1,0 +1,46 @@
+<svg version="1.1" id="svg_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="85.04px" height="85.04px" viewBox="0 0 85.04 85.04" enable-background="new 0 0 85.04 85.04" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-12.2417" y1="54.7339" x2="56.564" y2="54.7339" gradientTransform="matrix(1 0 0 -1 20.835 97.9951)">
+	<stop  offset="0" style="stop-color:#FCE576"/>
+	<stop  offset="0.5449" style="stop-color:#FCE49D"/>
+	<stop  offset="1" style="stop-color:#FCE576"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" stroke="#F7B902" stroke-width="1.0108" stroke-linecap="round" stroke-linejoin="round" d="
+	M8.593,19.728c0.715,11.939,4.352,36.157,4.352,43.465c0,4.166,14.631,8,29.689,7.922c11.347-0.059,22.937-3.134,28.706-5.486
+	c1.752-17.049,3.141-30.34,6.059-47.389c-9.283,3.972-19.568,7.161-21.902,18.122c-2.145-9.681-9.928-15.742-13.975-20.955
+	c-5.236,5.709-13.393,13.69-13.977,22.823C23.593,28.168,11.21,22.708,8.593,19.728z"/>
+<radialGradient id="SVGID_2_" cx="-12.4756" cy="75.8452" r="5.2356" gradientTransform="matrix(0.992 0 0 -1.0342 17.8876 97.1382)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#F9D560"/>
+	<stop  offset="1" style="stop-color:#FCEE92"/>
+</radialGradient>
+<ellipse fill="url(#SVGID_2_)" stroke="#F9C700" stroke-width="0.7581" stroke-linecap="round" stroke-linejoin="round" cx="8.592" cy="17.247" rx="4.048" ry="4.219"/>
+<radialGradient id="SVGID_3_" cx="22.5557" cy="78.3735" r="4.9582" gradientTransform="matrix(0.992 0 0 -1.0342 17.8876 97.1382)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#F9D560"/>
+	<stop  offset="1" style="stop-color:#FCEE92"/>
+</radialGradient>
+<ellipse fill="url(#SVGID_3_)" stroke="#F9C700" stroke-width="0.7581" stroke-linecap="round" stroke-linejoin="round" cx="41.642" cy="14.515" rx="4.046" ry="4.221"/>
+<radialGradient id="SVGID_4_" cx="57.3657" cy="75.2612" r="5.9552" gradientTransform="matrix(0.992 0 0 -1.0342 17.8876 97.1382)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#F9D560"/>
+	<stop  offset="1" style="stop-color:#FCEE92"/>
+</radialGradient>
+<ellipse fill="url(#SVGID_4_)" stroke="#F9C700" stroke-width="0.7581" stroke-linecap="round" stroke-linejoin="round" cx="76.448" cy="17.247" rx="4.047" ry="4.219"/>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-9.4678" y1="29.269" x2="52.4233" y2="29.269" gradientTransform="matrix(1 0 0 -1 20.835 97.9951)">
+	<stop  offset="0" style="stop-color:#FCE576"/>
+	<stop  offset="0.5449" style="stop-color:#FCE49D"/>
+	<stop  offset="1" style="stop-color:#FCE576"/>
+</linearGradient>
+<path fill="url(#SVGID_5_)" stroke="#F7B902" stroke-width="1.0108" stroke-linecap="round" stroke-linejoin="round" d="
+	M72.051,62.707c-3.711,3.938-15.615,6.824-29.74,6.824c-14.121,0-26.026-2.887-29.737-6.824c-0.78,0.826-1.207,1.699-1.207,2.604
+	c0,5.211,13.856,9.436,30.944,9.436c17.092,0,30.947-4.225,30.947-9.436C73.258,64.406,72.831,63.533,72.051,62.707z"/>
+<radialGradient id="SVGID_6_" cx="-134.8682" cy="43.7944" r="17.3758" gradientTransform="matrix(0.6377 0 0 -1.0164 126.2273 98.3422)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.0955" style="stop-color:#D21F11"/>
+	<stop  offset="0.6966" style="stop-color:#EA7D67"/>
+	<stop  offset="0.9888" style="stop-color:#EFA389"/>
+</radialGradient>
+<polygon fill="url(#SVGID_6_)" stroke="#F5AA02" stroke-width="0.7581" stroke-linecap="round" stroke-linejoin="round" points="
+	36.968,45.826 42.089,41.11 47.211,45.826 47.211,55.253 42.089,59.97 36.968,55.253 "/>
+<path fill="#FFFFFF" d="M42.443,43.17l-0.318,0.358l1.957,1.889c0.111-0.115,0.223-0.23,0.334-0.346L42.443,43.17z"/>
+<path fill="#FFFFFF" d="M45.489,46.106l-0.486-0.472c-0.139,0.078-0.264,0.189-0.357,0.324l0.525,0.506L45.489,46.106z"/>
+<path fill="none" stroke="#F8C400" stroke-width="1.0108" stroke-linecap="round" stroke-linejoin="round" d="M12.94,60.603
+	c8.707,2.369,25.364-26.25,28.581-32.764c3.217,6.118,22.149,36.317,29.911,34.145"/>
+</svg>

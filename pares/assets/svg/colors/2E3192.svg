@@ -1,0 +1,12 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g>
+	<circle fill="#2E3192" stroke="#CCCCCC" stroke-width="0.5" stroke-miterlimit="10" cx="24.858" cy="24.857" r="23.286"/>
+	<path fill="#F1F2F2" stroke="#CCCCCC" stroke-width="0.5" stroke-miterlimit="10" d="M24.856,48.713
+		C11.703,48.713,1,38.012,1,24.857C1,11.703,11.703,1,24.856,1c13.156,0,23.857,10.702,23.857,23.856
+		C48.714,38.012,38.013,48.713,24.856,48.713z M24.856,2.144c-12.523,0-22.712,10.189-22.712,22.713
+		c0,12.524,10.189,22.713,22.712,22.713c12.527,0,22.717-10.189,22.717-22.713C47.573,12.333,37.384,2.144,24.856,2.144z"/>
+</g>
+<line fill="none" stroke="#2E5692" stroke-width="0.25" stroke-miterlimit="10" x1="17.531" y1="12.97" x2="11.698" y2="22.47"/>
+<line fill="none" stroke="#2E5692" stroke-width="0.25" stroke-miterlimit="10" x1="17.853" y1="15.076" x2="13.376" y2="22.365"/>
+</svg>

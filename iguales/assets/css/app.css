@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'GammoFontWest';
+  src: url('../fonts/west.woff') format('woff');
+}
+
+/* Common Stuff */
+.left { float: left; }
+.right { float: right; }
+.text-left { text-align: left; }
+.none { display: none !important; }
+.clickable { cursor: pointer; }
+
+/* Opacity 100 */
+.opacityFull {
+  zoom: 1;
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+}
+
+/* Opacity 85 */
+.opacity85 {
+  zoom: 1;
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+}
+
+/* Opacity 50 */
+.opacity50 {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+/* Grabbing Cursor */
+.page-blank .colorable{cursor:move;}
+.page-blank .colorable{cursor:url("../images/cursors/grabbing.png") 8 8,-moz-grabbing;}
+.page-blank .colorable{*cursor:url(../images/cursors/grabbing.cur);}
+
+/* Load Layer */
+#appLoadLayer {
+  background: #00A8DE url(../svg/loadbg.svg) no-repeat center 0;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 200;
+}
+.loaderOpacity {
+  background: #000;
+}
+#appLoadLayer img.loader {
+  margin: 22% auto 0;
+  position: relative;
+}
+#appLoadLayer span.loadLabel {
+  color: #444;
+  display: block;
+  font-size: 0.6em;
+  margin: 1% auto 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #808080;
+  width: 200px;
+}
+
+/* Slider Content */
+#content { position: absolute; bottom: 0px; z-index: 199; }
+
+/* Working Area */
+#working-area {
+  display: block;
+  height: 100%;
+  left: 0em;
+  max-height: 505px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0em;
+  width: 100%;
+  z-index: 90;
+}
+#working-area .page-blank svg {
+  max-height: 500px;
+}
+
+/* Preview Box */
+#preview-box {
+  background: #fff;
+  border: 1px solid #333;
+  box-shadow: 0 0 3px #666;
+  display: block;
+  height: auto;
+  max-height: 120px;
+  position: absolute;
+  right: 1em;
+  text-align: center;
+  top: 1em;
+  width: 150px;
+  z-index: 100;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  zoom: 1;
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+}
+#preview-box svg {
+  height: 120px;
+}
+
+/* Tool Box */
+div.tool-box,
+div.tools-box {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 64px;
+  z-index: 100;
+}
+
+div.tool-box { left: 0px; }
+div.tools-box { left: 0px; }
+
+div.tool-box ul,
+div.tools-box ul {
+  clear: both;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div.tool-box li,
+div.tools-box li {
+  display: inline;
+  list-style: none;
+}
+div.tool-box input[type='button'],
+div.tools-box input[type='button'] {
+  background: none;
+  border: none;
+  height: 64px;
+  width: 64px
+}
+
+/* Qualify Button */
+#qualify {
+  background: transparent url(../svg/qualifyButton.svg) no-repeat 0 0;
+  border: none;
+  cursor: pointer;
+  height: 91px;
+  position: absolute;
+  right: 1em;
+  top: 15em;
+  width: 120px;
+  z-index: 100;
+}
+
+/* Game Background */
+div.gameBackground {
+  text-align: center;
+}
+
+/* Paint Bucket */
+.paintTool {
+  cursor: pointer;
+}
+
+/* Modal Message */
+.msgModal {
+  background: transparent url(../svg/instructions.svg) no-repeat center -120px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1em;
+  height: 100%;
+  line-height: 22px;
+  max-height: 445px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 100px 10px 10px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+.msgModal h1 {
+  font-size: 1.2em;
+  text-shadow: 1px 0px 2px #666;
+}
+.msgModal li {
+  padding: 0 0 0 10px;
+}
+.msgModal input[type='button'] {
+  background: transparent url(../svg/qualifyButton.svg) no-repeat center 0;
+  border: none;
+  cursor: pointer;
+  height: 95px;
+  margin-top: 15px;
+  width: 120px;
+}
+
+/* Image Chooser */
+section.imageChooser {
+  bottom: 0px;
+  display: block;
+  height: 85px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+section.imageChooser article {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 510px;
+}
+
+/* --------------------------------- */
+
+#debug-box {
+  background: #000;
+  border: 1px solid #196177;
+  bottom: 5%;
+  box-shadow: 0 0 2px #196177;
+  color: #1e728c;
+  height: 200px;
+  left: 1%;
+  padding: 5px;
+  position: fixed;
+  width: 25%;
+  z-index: 500;
+
+  zoom: 1;
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+}

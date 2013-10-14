@@ -1,0 +1,117 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* Thumbnails Top Position */
+  #c-carousel .horizontal { top:42%; }
+  img.t1,
+  img.t2,
+  img.t3 { top: 0px; }
+  img.t4,
+  img.t5,
+  img.t6 { top: 140px; }
+  img.t7,
+  img.t8,
+  img.t9 { top: 280px; }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* Thumbnails Top Position */
+  #c-carousel .horizontal { top:43%; }
+  img.t1,
+  img.t2,
+  img.t3 { top: 0px; }
+  img.t4,
+  img.t5,
+  img.t6 { top: 140px; }
+  img.t7,
+  img.t8,
+  img.t9 { top: 280px; }
+  }
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}
+
+/* ------------------------------------------------------ */
+
+/*
+ * TABLET PORTRAIT
+ */
+/* @media only screen and (min-width:768px) {
+  #working-area {
+    border: 1px dotted red;
+  }
+} */
+
+/*
+ * TABLET LANDSCAPE
+ */
+/* @media only screen and (min-width:1024px) {
+  #working-area {
+    border: 1px dotted blue;
+  }
+} */
+
+/*
+ * DESKTOP
+ */
+/* @media only screen and (min-width:1025px) {
+  #working-area {
+    border: 1px dotted black;
+  }
+} */
+
+
+/* @import url("responsive.tablet.portrait.css");
+@import url("responsive.tablet.landscape.css");
+@import url("responsive.smartphone.portrait.css");
+@import url("responsive.smartphone.landscape.css");
+@import url("responsive.desktop.css");
+@import url("responsive.custom.css"); */

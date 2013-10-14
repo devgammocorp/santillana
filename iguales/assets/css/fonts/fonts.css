@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'kidsFont';
+  src: url('kbzipadeedoodah-webfont.eot');
+  src: url('kbzipadeedoodah-webfont.eot?#iefix') format('embedded-opentype'),
+  url('kbzipadeedoodah-webfont.woff') format('woff'),
+  url('kbzipadeedoodah-webfont.ttf') format('truetype'),
+  url('kbzipadeedoodah-webfont.svg#kbzipadeedoodahmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
