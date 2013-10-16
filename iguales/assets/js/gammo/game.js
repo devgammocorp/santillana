@@ -29,10 +29,12 @@ var GammoGame = function (difLvl) {
     this.init = function() {
         // TopBar Levels
         for ( var lvl = 0; lvl < 9; lvl++ ) {
-            $('#toplvl_' + lvl).children('.number').attr('fill', '#000000');
-        }
+            $('#toplvl_' + lvl).children('img').attr('class', 'none');
 
-        $('#toplvl_' + sceneCurrent).children('.number').attr('fill', '#3E55A5');
+            if ( parseInt(scenesComplete[lvl]) == 1 ) {
+                $('#toplvl_' + lvl).children('img').attr('class', '');
+            }
+        }
 
         // Show the modal layer
         ModalMngr.open();
@@ -114,13 +116,6 @@ var GammoGame = function (difLvl) {
         var context = this;
 
         /**
-         * Qualify Button
-         */
-        /* $('#goQualify').click(function() {
-            context.checkComplete();
-        }); */
-
-        /**
          * Click handler for color choices
          */
         $('#colorBox li').click(function() {
@@ -163,7 +158,7 @@ var GammoGame = function (difLvl) {
         }, 1000);
     }
 
-     /**
+    /**
      * Check if scenes are completed
      */
     this.checkComplete = function() {
@@ -338,11 +333,10 @@ var GammoGame = function (difLvl) {
         }
 
         for ( var lvl = 0; lvl < 9; lvl++ ) {
-            $('#toplvl_' + lvl).children('.number').attr('fill', '#000000');
-            ( parseInt(scenesComplete[lvl]) == 1 ) ? $('#topok_' + lvl).attr('class', '') : $('#topok_' + lvl).attr('class', 'none');
-        }
+            $('#toplvl_' + lvl).children('img').attr('class', 'none');
 
-        $('#toplvl_' + sceneCurrent).children('.number').attr('fill', '#3E55A5');
+            ( parseInt(scenesComplete[lvl]) == 1 ) ? $('#toplvl_' + lvl).children('img').attr('class', '') : '';
+        }
     }
 
     /**
@@ -350,6 +344,10 @@ var GammoGame = function (difLvl) {
      */
     this.reset = function() {
         timerStop();
+
+        for ( var lvl = 0; lvl < 9; lvl++ ) {
+            $('#toplvl_' + lvl).children('img').attr('class', 'none');
+        }
 
         $('#content-wrapper').remove();
         $('#boxResult').remove();

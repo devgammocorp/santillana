@@ -3,7 +3,7 @@ html, #c-carousel {
   padding: 0;
   margin: 0;
 }
-#c-carousel {}
+#c-carousel { margin-top: 15px; }
 #c-carousel * {
   font-family: Arial, Geneva, SunSans-Regular, sans-serif;
   font-size: 14px;

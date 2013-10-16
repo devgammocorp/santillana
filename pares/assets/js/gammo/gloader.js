@@ -168,8 +168,11 @@ var GammoLoader = function (pathsArr, assetsArr) {
         strDom += '<ul class="right">';
 
         for ( var i = 0; i < 9; i++ ) {
-            strDom += '<li>'
-            strDom += this.svgs['toplvl_' + i];
+            if ( i < 3) { strDom += '<li id="toplvl_' + i + '" class="toplvl easy">'; }
+            else if ( i >= 3 && i < 6) { strDom += '<li id="toplvl_' + i + '" class="toplvl mid">'; }
+            else { strDom += '<li id="toplvl_' + i + '" class="toplvl hard">'; }
+
+            strDom += (i + 1) + '<img src="./assets/svg/toplvl/visto.svg" class="none" height="15">';
             strDom += '</li>';
         }
 
@@ -228,10 +231,14 @@ var GammoLoader = function (pathsArr, assetsArr) {
             $('#goQualify').attr('class', '');
 
             for ( var lvl = 0; lvl < 9; lvl++ ) {
-                $('toplvl_' + lvl).children('.number').attr('fill', '#000000');
+                $('#toplvl_' + lvl).children('img').attr('class', 'none');
+
+                if ( lvl < 3) { $('#toplvl_' + lvl).attr('class', 'toplvl easy'); }
+                else if ( lvl >= 3 && lvl < 6) { $('#toplvl_' + lvl).attr('class', 'toplvl mid'); }
+                else { $('#toplvl_' + lvl).attr('class', 'toplvl hard'); }
             }
 
-            $('toplvl_' + levelCurrent).children('.number').attr('fill', '#3E55A5');
+            $('#toplvl_' + levelCurrent).attr('class', $('#toplvl_' + levelCurrent).attr('class') + ' lvlon');
 
             // Start Game Logic
             GameMngr = null;

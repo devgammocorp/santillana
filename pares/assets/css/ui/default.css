@@ -105,7 +105,6 @@ body {
   line-height: 1em;
   margin: 0 auto;
   position: relative;
-  text-shadow: 1px 1px #333;
   top: -7em;
   width: 70%;
 }
@@ -199,11 +198,6 @@ body {
 #sideBar ul li {
   display: inline;
 }
-#topBar ul:last-child li {
-  display: block;
-  float: left;
-  width: 20px;
-}
 
 /* Color Box */
 #colorBox {
@@ -291,6 +285,30 @@ body {
   z-index: 100;
 }
 
+/* Top Levels */
+.easy { color:#fff200; }
+.mid { color:#f7941e; }
+.hard { color:#ed1c24; }
+
+li.toplvl {
+  display: block;
+  list-style: none;
+  float: left;
+  font-family: "kidsFont";
+  font-size: 1.5em;
+  margin: 0 10px;
+  padding: 7px 0 0;
+  width: 30px;
+}
+li.toplvl img {
+  left: -17px;
+  max-height: 15px;
+  position: relative;
+  top: -15px;
+}
+
+.lvlon { font-size:2.8em !important; }
+
 /* General Stuff */
 .none { display:none !important; }
 .left { float:left; }
@@ -298,6 +316,7 @@ body {
 .absolute { position:absolute; z-index:100; }
 li { list-style:none; }
 #goNext, #goQual { cursor:pointer; }
+
 
 
 

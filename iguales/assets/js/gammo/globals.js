@@ -43,7 +43,7 @@ for ( var sc = 0; sc < 15; sc++ ) {
 }
 
 for ( var lc = 0; lc < scnsTotal; lc++ ) {
-    scenesComplete.push( (lc == 8) ? 0 : 1 );
+    scenesComplete.push(0);
 }
 
 colorsAvail.push('#FFC926');
