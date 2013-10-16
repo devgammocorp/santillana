@@ -130,16 +130,18 @@ var GammoSound = function () {
      * @param to
      */
     this.play = function(soundId, from, to) {
-        if ( parseInt(this.audioPrf) == 1 ) { // Audio Context
-            var source = this.audioCxt.createBufferSource(); // creates a sound source
-            source.buffer = this.poolBff[soundId];           // tell the source which sound to play
-            source.connect(this.audioCxt.destination);       // connect the source to the context's destination (the speakers)
-            // source.noteOn(from);
-            source.start(from);                              // play the source now
-        }
-        else { // Audio Tag
-            var tagObj = this.poolTag[soundId];
-            tagObj.play();
+        if ( !safaMob() ) {
+            if ( parseInt(this.audioPrf) == 1 ) { // Audio Context
+                var source = this.audioCxt.createBufferSource(); // creates a sound source
+                source.buffer = this.poolBff[soundId];           // tell the source which sound to play
+                source.connect(this.audioCxt.destination);       // connect the source to the context's destination (the speakers)
+                // source.noteOn(from);
+                source.start(from);                              // play the source now
+            }
+            else { // Audio Tag
+                var tagObj = this.poolTag[soundId];
+                tagObj.play();
+            }
         }
     }
 

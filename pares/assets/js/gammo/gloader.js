@@ -181,7 +181,6 @@ var GammoLoader = function (pathsArr, assetsArr) {
 
         strDom += '<div id="sideBar">';
         strDom += '<li><input type="button" id="sceneChooser" title="" value=""></li>';
-        strDom += '<li><input type="button" id="goQualify" title="" value="" class="none"></li>';
 
         if ( safaMob() ) {
             strDom += '<li><input type="button" id="historyPlay" title="" onclick="snd_background.play();" value=""></li>';
@@ -228,7 +227,6 @@ var GammoLoader = function (pathsArr, assetsArr) {
 
             // Set Level
             levelCurrent = parseInt($(this).attr('accesskey'));
-            $('#goQualify').attr('class', '');
 
             for ( var lvl = 0; lvl < 9; lvl++ ) {
                 $('#toplvl_' + lvl).children('img').attr('class', 'none');
@@ -251,13 +249,6 @@ var GammoLoader = function (pathsArr, assetsArr) {
         $('#sceneChooser').bind('click', function(event) {
             timerStop();
             GameMngr.reset();
-            $('#goQualify').attr('class', 'none');
-        });
-
-        // Launcher for Scene Qualification
-        $('#goQualify').bind('click', function(event) {
-            timerStop();
-            GameMngr.qualify();
         });
 
         // Launcher for Main Audio

@@ -29,6 +29,9 @@ and (max-device-width : 1024px)  {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
+  /* Sidebar */
+  #sideBar { left: -20px; }
+
   /* Thumbnails Top Position */
   #c-carousel .horizontal { top:42%; }
   img.t1,

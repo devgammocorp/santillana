@@ -247,7 +247,7 @@ var GammoLoader = function (pathsArr, assetsArr) {
                 else { $('#toplvl_' + lvl).attr('class', 'toplvl hard'); }
             }
 
-            $('#toplvl_' + scenesComplete).attr('class', $('#toplvl_' + scenesComplete).attr('class') + ' lvlon');
+            $('#toplvl_' + sceneCurrent).attr('class', $('#toplvl_' + scenesComplete).attr('class') + ' lvlon');
 
             // Start Game Logic
             GameMngr = null;
